@@ -1,0 +1,348 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome to CityLights! [Inaccessible Survey Page]</title>    <style>
+body { 
+	color: #000; 
+}
+#main p, td, form {
+	color: #000000;
+	font: normal 15px/17px "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+#main .headline {
+	margin-top: 0px;
+	color: #41545d;
+	font: 24px verdana;
+	font-family: impact;
+	text-decoration: none;
+}
+.comment {
+	margin-top: 1em;
+}
+.hundred {
+	font-size: 100%;
+}
+.bordotabella {
+	background: #ededed;
+	border: 2px solid gray;
+}
+.bordotabellacapitolo {
+	background: #a9b8bf;
+}
+</style>
+<link href="./assets/meta.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	function ChangeColor(id, colour){
+		document.getElementById(id).style.backgroundColor=colour;
+	}
+	function switchImage(imgName, imgSrc){
+		if (document.images){
+			if (imgSrc != "none"){
+				document.images[imgName].src = imgSrc;
+			}
+		}
+	}
+</script> 
+<noscript>&lt;B&gt;&lt;FONT COLOR=RED&gt;This page uses scripts!!!&lt;/FONT&gt;&lt;/B&gt;</noscript>
+<script src="./assets/onload.js" type="text/javascript"></script>
+</head>
+<body text="#000000" bgcolor="#D7D7CD" leftmargin="0px" topmargin="0px" marginwidth="0px" marginheight="0px" link="#226C8E" vlink="#226C8E" alink="#226C8E" class=" hasGoogleVoiceExt">
+	<div id="page">
+		<table width="100%" border="0px" cellspacing="0px" cellpadding="0px" bgcolor="#D7D7CD"><tbody><tr valign="MIDDLE"><td width="100%" align="CENTER">
+			<table width="800px" border="0px" cellspacing="0px" cellpadding="0px" bgcolor="WHITE">
+				<tbody><tr height="10px">
+					<td width="10px" background="./assets/border_left_top.gif"><img src="./assets/border_left_top.gif" width="10px" height="10px"></td>
+					<td width="780px" background="./assets/border_top.gif"><img src="./assets/border_top.gif" height="10px"></td>
+					<td width="10px" background="./assets/border_right_top.gif"><img src="./assets/border_right_top.gif" width="10px" height="10px"></td>
+				</tr>
+				<tr>
+					<td width="10px" background="./assets/border_left.gif"><img src="./assets/border_left.gif" width="10px"></td>
+					<td width="780px" align="CENTER">
+						<table width="780px" height="144px" border="0px" cellspacing="0px" cellpadding="0px" bgcolor="WHITE">
+							<tbody><tr height="86px">
+								<td width="443px" background="./assets/top_logo_next.gif" valign="MIDDLE"><div><img src="./assets/top_logo.gif" width="443px" height="86px" alt="Red dot with a white letter &#39;C&#39; that symbolizes a moon crescent as well as the sun. This logo is followed by a black banner that says &#39;CITYLIGHTS&#39; which is the name of this online portal. Finally, the slogan of the portal, &#39;your access to the city&#39;, follows in a turquoise green handwriting style and with a slight slant across the top banner."></div></td>
+								<td width="24px" valign="MIDDLE"><img src="./assets/top_logo_next_end.gif" width="24px" height="86px"></td>
+								<td width="128px" valign="MIDDLE"><img src="./assets/top_weather.gif" width="128px" height="86px"></td>
+								<td width="22px" valign="MIDDLE"><img src="./assets/top_logo_next_start.gif" width="22px" height="86px"></td>
+								<td width="163px" background="./assets/top_logo_next.gif" align="CENTER" valign="MIDDLE">
+									<select onchange="location.href = this.value;">
+										<option selected="">QUICKMENU ----&gt;
+										</option><option value="../offsite.html">Broadcasting
+									</option><option value="../offsite.html">Education
+								</option><option value="../offsite.html">Electricity
+							</option><option value="../offsite.html">Fire service
+						</option><option value="../offsite.html">Gas service
+					</option><option value="../offsite.html">Health care
+				</option><option value="../offsite.html">Police service
+			</option><option value="../offsite.html">Public Libraries
+		</option><option value="../offsite.html">Social services
+	</option><option value="../offsite.html">Social housing
+</option><option value="../offsite.html">Telecommunications
+</option><option value="../offsite.html">Town planning
+</option><option value="../offsite.html">Transportation
+</option><option value="../offsite.html">Waste management
+</option><option value="../offsite.html">Water services
+</option></select>
+</td>
+</tr>
+<tr height="7px">
+	<td width="780px" background="./assets/mark.gif" colspan="5"><img src="./assets/mark.gif" width="158px" height="7px"></td>
+</tr>
+<tr height="25px">
+	<td colspan="5">
+		<table width="780px" border="0px" cellspacing="0px" cellpadding="0px">
+			<tbody><tr height="25px">
+				<td bgcolor="#EDEDED" width="380px"><font color="BLACK" face="Verdana" size="2">&nbsp;&nbsp;<b>Traffic:</b> Construction work on Main Road</font></td>
+				<td bgcolor="#EDEDED" align="RIGHT" id="WEATHER"><font color="BLACK" face="Verdana" size="2"><b>Today:</b> 
+					<script language="JavaScript">
+						var now = new Date();
+						var days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+						var months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+						var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+						function fourdigits(number)	{
+							return (number < 1000) ? number + 1900 : number;
+						}
+						today =  days[now.getDay()] + " " + date + " " + months[now.getMonth()] + " " + (fourdigits(now.getYear())) + ", Sunny, 23&deg;C&nbsp;&nbsp;</FONT>";
+						document.all.WEATHER.setAttribute("BGCOLOR", "#EDEDED", 0);
+						document.write(today);
+					</script>Monday 12 January 2015, Sunny, 23¡C&nbsp;&nbsp;</font></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr height="1px">
+		<td width="780px" background="./assets/marker2_w.gif" colspan="5"><img src="./assets/marker2_w(1).gif" width="78px" height="1px"></td>
+	</tr>
+	<tr height="25px">
+		<td colspan="5">&nbsp;</td>
+	</tr>
+</tbody></table>
+<table width="780px" border="0px" cellspacing="0px" cellpadding="0px" bgcolor="WHITE">
+	<tbody><tr width="780px">
+		<td width="155px" bgcolor="#E4E4E4" valign="TOP">
+			<table width="155px" border="0px" cellspacing="0px" cellpadding="0px">
+				<tbody><tr height="1px">
+					<td width="155px" background="./assets/marker2_w.gif"><img src="./assets/marker2_w.gif" width="78px" height="1px"></td>
+					<td width="1px" background="./assets/marker2_t.gif" rowspan="9" valign="TOP"><img src="./assets/marker2_t.gif" width="1" height="30px"></td>
+				</tr>
+				<tr height="34px">
+					<td width="154px" bgcolor="#EDEDED" id="home" onmouseover="switchImage(&#39;nav_home&#39;, &#39;./img/nav_home2.gif&#39;); ChangeColor(&#39;home&#39;,&#39;#FFF&#39;)" onmouseout="switchImage(&#39;nav_home&#39;, &#39;./img/nav_home.gif&#39;); ChangeColor(&#39;home&#39;,&#39;#EDEDED&#39;)"><a href="javascript:location.href='home.html';" onfocus="blur();"><img name="nav_home" src="./assets/nav_home.gif" width="88" height="27" hspace="15" border="0px"></a></td>
+				</tr>
+				<tr height="1px">
+					<td width="154px" background="./assets/marker2_w.gif"><img src="./assets/marker2_w.gif" width="78px" height="1px"></td>
+				</tr>
+				<tr height="34px">
+					<td width="154px" bgcolor="#EDEDED" id="news" onmouseover="switchImage(&#39;nav_news&#39;, &#39;./img/nav_news2.gif&#39;); ChangeColor(&#39;news&#39;,&#39;#FFF&#39;)" onmouseout="switchImage(&#39;nav_news&#39;, &#39;./img/nav_news.gif&#39;); ChangeColor(&#39;news&#39;,&#39;#EDEDED&#39;)"><a href="javascript:location.href='news.html';" onfocus="blur();"><img src="./assets/nav_news.gif" name="nav_news" width="90" height="21" hspace="12" border="0px"></a></td>
+				</tr>
+				<tr height="1px">
+					<td width="154px" background="./assets/marker2_w.gif"><img src="./assets/marker2_w.gif" width="78px" height="1px"></td>
+				</tr>
+				<tr height="34px">
+					<td width="154px" bgcolor="#EDEDED" id="tickets" onmouseover="switchImage(&#39;nav_facts&#39;, &#39;./img/nav_facts2.gif&#39;); ChangeColor(&#39;tickets&#39;,&#39;#FFF&#39;)" onmouseout="switchImage(&#39;nav_facts&#39;, &#39;./img/nav_facts.gif&#39;); ChangeColor(&#39;tickets&#39;,&#39;#EDEDED&#39;)" style="background-color: rgb(237, 237, 237);"><a href="javascript:location.href='tickets.html';" onfocus="blur();"><img name="nav_facts" src="./assets/nav_facts.gif" width="105" height="23" hspace="9" border="0px"></a></td>
+				</tr>
+				<tr height="1px">
+					<td width="154px" background="./assets/marker2_w.gif"><img src="./assets/marker2_w.gif" width="78px" height="1px"></td>
+				</tr>
+				<tr height="34px">
+					<td width="154px" bgcolor="#EDEDED" id="survey" onmouseover="switchImage(&#39;nav_survey&#39;, &#39;./img/nav_survey2.gif&#39;); ChangeColor(&#39;survey&#39;,&#39;#FFF&#39;)" onmouseout="switchImage(&#39;nav_survey&#39;, &#39;./img/nav_survey.gif&#39;); ChangeColor(&#39;survey&#39;,&#39;#EDEDED&#39;)"><a href="javascript:location.href='survey.html';" onfocus="blur();"><img src="./assets/nav_survey.gif" name="nav_survey" width="107" height="32" hspace="8" border="0px"></a></td>
+				</tr>
+				<tr height="1px">
+					<td width="154px" background="./assets/marker2_w.gif"><img src="./assets/marker2_w.gif" width="78px" height="1px"></td>
+				</tr>
+			</tbody></table>
+		</td>
+		<td width="20px"><img src="./assets/blank_5x5.gif" width="20px" height="5px"></td>
+		<td width="625px" height="600px" valign="TOP" id="main"><div>
+			
+
+			<form action="" method="post">
+
+  <legend><font size="6">Citylights Survey </font><br><br><font size = "5"></font> This Week's Survey: More city parks - a pain or a gain?</font></legend><br>
+				
+				<table width="122" border="0" cellspacing="2" cellpadding="0">
+					<tbody><tr>
+						<td><img src="./assets/gif.gif" alt="" height="25" width="11" border="0"></td>
+						<td>
+							<table width="500" border="0" cellspacing="2" cellpadding="0">
+								<tbody><tr>
+									<td colspan="4"><img src="./assets/gif.gif" alt="" height="10" width="10" border="0"></td>
+								</tr>
+								<tr>
+									<fieldset>
+										<legend>Which is your favorite city park?</legend>
+										<input type="radio" name="favoritepark" value="none" id="none">
+										<label for="none">None</label>
+										<br>
+										<input type="radio" name="favoritepark" value="central park" id="Central Park">
+										<label for="Central Park">Central Park</label>
+										<br>
+										<input type="radio" name="favoritepark" value="South park" id="South park">
+										<label for="South park">South Park</label>
+										<br>
+										<input type="radio" name="favoritepark" value="none" id="Jurassic Park">
+										<label for="Jurassic Park">Jurassic park</label>
+										<br>
+										<input type="radio" name="favoritepark" value="grand park" id="Grand Park">
+										<label for="Grand Park">Grand Park</label>
+										<br>
+										<input type="radio" name="favoritepark" value="other" id="other">
+										<label for="other">Other</label>
+
+									</fieldset>
+
+
+
+									<td height="31%"><img src="./assets/gif.gif" alt="" height="25" width="5" border="0"></td>
+								</tr>
+
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+
+				
+				<table class="bordotabella" width="90%" border="0" cellspacing="2" cellpadding="0">
+					<tbody><tr>
+						<td>
+							<table border="0" cellspacing="2" cellpadding="0">
+								<tbody><tr>
+									<td><img src="./assets/gif.gif" alt="" height="25" width="11" border="0"></td>
+									<td>
+										<table border="0" cellspacing="2" cellpadding="0">
+											<tbody><tr>
+												<td colspan="2"><img src="./assets/gif.gif" alt="" height="10" width="10" border="0"></td>
+											</tr>
+											<tr>
+												<td>
+
+
+													<label for="favcity">Choose your favorite city?</label><br>
+													<select id="favcity" name="select">
+														<option value="0">Select a city</option>
+														<option value="1">Amsterdam</option>
+														<option value="2">Buenos Aires</option>
+														<option value="3">Delhi</option>
+														<option value="4">Hong Kong</option>
+														<option value="5">London</option>
+														<option value="6">Los Angeles</option>
+														<option value="7">Moscow</option>
+														<option value="8">Mumbai</option>
+														<option value="9">New York</option>
+														<option value="10">Sao Paulo</option>
+														<option value="11">Tokyo</option>
+													</select>
+
+													<img src="./assets/gif.gif" alt="" height="25" width="5" border="0">
+													<p></p>
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<p></p>
+				<table class="bordotabella" width="90%" border="0" cellspacing="2" cellpadding="0">
+					<tbody><tr>
+						<td>
+							<table border="0" cellspacing="2" cellpadding="0">
+								<tbody><tr>
+									<td><img src="./assets/gif.gif" alt="" height="25" width="11" border="0"></td>
+									<td>
+										<table border="0" cellspacing="2" cellpadding="0">
+											<tbody>
+											<tr>
+												<caption>Do you want a free newsletter?</caption>
+											</tr>
+											<tr>
+												<td>
+												
+												<label for=" full name">Full name</label> 
+
+												<input type="text" name=" full name" value="" id=" full name">
+												<br><br>
+													<label for="email">Email</label> 
+
+												<input type="text" name="email" value="" id="email">
+												<br><br>
+													<label for="retype eMail">Re-type Email</label> 
+
+												<input type="text" name="retype eMail" value="" id="retype eMail">						
+
+											
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+				<p></p>
+				<table width="90%" border="0" cellspacing="2" cellpadding="0">
+					<tbody><tr>
+						<td><input type="submit" id="submit" value="submit" alt="submit" name="submit"></td>
+					</tr>
+				</tbody></table>
+				<p>&nbsp;</p>
+				<hr>
+			</form>          <div style="clear:both;width:100%;padding:0px;margin:0px;">
+			<div id="data" style="float:left">
+				<p style="padding-bottom:0px; margin-bottom:0px; width:300px; height:40px; overflow: hidden;" class="headline"><font size="3">Last Weeks's Survey Results</font></p><b>What is your favorite and least favorite organ?</b>
+				<table width="560px" border="1" style="float:left; border: 1px dashed silver;">
+					<tbody><tr bgcolor="#DBDBDB">
+						<td rowspan="4" bgcolor="#ffffff" style="border-right: 1px dashed silver;"><p style="background:#DBDBDB;padding-top:3px;padding-bottom:2px;"><br></p><p style="margin-bottom:0px;padding-top:3px; padding-bottom:5px" align="right"><strong>love it</strong></p><p style="margin-top:5px;background:#DBDBDB;padding-top:3px; padding-bottom:4px" align="right"><strong>hate it</strong></p></td>
+						<td title="question" width="70"><b>Lung</b></td>
+						<td title="question" width="70"><b>Pancreas</b></td>
+						<td title="question" width="70"><b>Spleen</b></td>
+						<td title="question" width="70"><b>Liver</b></td>
+						<td title="question" width="70"><b>Skin</b></td>
+						<td title="question" width="70"><b>Brain</b></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>4</td>
+						<td>10</td>
+						<td>4</td>
+						<td></td>
+						<td>1</td>
+					</tr>
+					<tr>  
+					</tr>
+					<tr bgcolor="#DBDBDB">
+						<td>5</td>
+						<td>6</td>
+						<td></td>
+						<td>14</td>
+						<td>1</td>
+						<td></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+		<p>&nbsp;</p></div>
+	</td>
+</tr>
+</tbody></table>
+<table width="780px" height="17px" border="0px" cellspacing="0px" cellpadding="0px" bgcolor="#EDEDED">
+	<tbody><tr height="17px">
+		<td align="RIGHT"><font color="BLACK" face="Verdana" size="1"><a rel="Copyright" href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2012 <a href="http://www.w3.org/"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>¨</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.org/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>, <a href="http://www.keio.ac.jp/">Keio</a>)</font></td>
+	</tr>
+</tbody></table>
+</td><td width="10px" background="./assets/border_right.gif"><img src="./assets/border_right.gif" width="10px"></td>
+</tr>
+<tr height="10px">
+	<td width="10px" height="10px" background="./assets/border_bottom_left.gif"><img src="./assets/border_bottom_left.gif" width="10px" height="10px"></td>
+	<td width="780px" height="10px" background="./assets/border_bottom.gif"><img src="./assets/border_bottom.gif" height="10px"></td>
+	<td width="10px" height="10px" background="./assets/border_bottom_right.gif"><img src="./assets/border_bottom_right.gif" width="10px" height="10px"></td>
+</tr>
+</tbody></table>
+</td></tr></tbody></table>
+</div>
+</div>
+
+</html>
+
